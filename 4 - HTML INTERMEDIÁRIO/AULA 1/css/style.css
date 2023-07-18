@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, p {
+    margin-bottom: 15px;
+  }
+
+.header {
+    background-image: url(../img/felixstowe-port-containers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    background-color: grey;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+    box-shadow: 0 0 10px black;
+    margin-bottom: 10px;
+}
+
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    width: 30%;
+    background: #a3a3a3;
+    padding: 30px;
+    margin: 10px 10px 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    border-radius: 10px 0px;
+    background-color: rgb(71, 71, 216);
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.content {
+    width: 80%;
+    height: 60vh;
+    background: #d8d8d8;
+    padding: 30px 30px;
+    border-radius: 40px 0;
+    margin: 20px 20px 20px 20px;
+}
+
+.footer {
+    background-color: grey;
+    text-align: center;
+    padding: 20px 0;
+}
+
+p {
+    margin-bottom: 15px;
+}
